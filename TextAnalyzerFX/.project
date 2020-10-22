@@ -20,4 +20,11 @@
 		<nature>org.eclipse.xtext.ui.shared.xtextNature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/library.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/eclipse-workspaceJun2020/TextAnalyzerFX/src/library.jpg</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>

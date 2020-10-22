@@ -97,7 +97,13 @@ public class Main extends Application {
 			/**
 			 * Creating a inputStream for accessing background file using URL 
 			 */
-			InputStream input = new URL("https://c0.wallpaperflare.com/preview/416/65/82/the-john-rylands-library-john-rylands-library-libraries.jpg").openStream();
+			//InputStream input = new URL("https://c0.wallpaperflare.com/preview/416/65/82/the-john-rylands-library-john-rylands-library-libraries.jpg").openStream();
+            
+			 
+			try {
+				FileInputStream input  = new FileInputStream("library.jpg");
+		 
+				
             
             /**
              * create a image for background
@@ -126,7 +132,14 @@ public class Main extends Application {
             */ 
            root.setBackground(background); 
             
+ ////
            
+           
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+////
            /**
             * adding Gridpane to the display
             * 
