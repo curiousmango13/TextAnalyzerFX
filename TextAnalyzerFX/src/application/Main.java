@@ -97,11 +97,13 @@ public class Main extends Application {
 			/**
 			 * Creating a inputStream for accessing background file using URL 
 			 */
-			//InputStream input = new URL("https://c0.wallpaperflare.com/preview/416/65/82/the-john-rylands-library-john-rylands-library-libraries.jpg").openStream();
+			
+			try {
+			InputStream input = new URL("https://c0.wallpaperflare.com/preview/416/65/82/the-john-rylands-library-john-rylands-library-libraries.jpg").openStream();
             
 			 
-			try {
-				FileInputStream input  = new FileInputStream("library.jpg");
+		//	try {
+		//		FileInputStream input  = new FileInputStream("library.jpg");
 		 
 				
             
