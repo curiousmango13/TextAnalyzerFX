@@ -448,6 +448,13 @@ public class Main extends Application {
 		 */
 		for (Entry<String, Integer> entry : setOfEntries) {
 			System.out.println("Word *" + entry.getKey() + "*" + " was used " + entry.getValue() + " times.");
+		
+		
+/////
+		System.out.print(setOfEntries.toString() + "DELETE THIS");	
+/////
+		
+		
 		}
 
 	}
@@ -458,7 +465,7 @@ public class Main extends Application {
 	 * @param treeMap
 	 * @return sorted map
 	 */
-	private static Map<String, Integer> sortByValue(Map<String, Integer> treeMap) {
+	static Map<String, Integer> sortByValue(Map<String, Integer> treeMap) {
 
 		/**
 		 *  Map to List of Map
